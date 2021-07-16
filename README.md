@@ -12,7 +12,8 @@
 ### Used Approaches
 
 * Partial use of MVVM Architecture
-* No test in place
+* Designed UI with common UX guidelines
+* Integrated few 3rd party SDK
 
 ### Comments
 
