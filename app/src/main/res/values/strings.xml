@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pets App</string>
+
+    <string-array name="breeds_origin">
+        <item>All</item>
+        <item>Egypt</item>
+        <item>Greece</item>
+        <item>United States</item>
+        <item>United Arab Emirates</item>
+        <item>Australia</item>
+        <item>France</item>
+        <item>United Kingdom</item>
+        <item>Burma</item>
+        <item>Canada</item>
+        <item>Cyprus</item>
+        <item>Russia</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Thailand</item>
+        <item>Isle of Man</item>
+        <item>Norway</item>
+        <item>Iran (Persia)</item>
+        <item>Singapore</item>
+        <item>Somalia</item>
+        <item>Turkey</item>
+    </string-array>
+</resources>

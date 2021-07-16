@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="8dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_breed"
+        android:layout_width="96dp"
+        android:layout_height="72dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_breed_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/text_breed_temperament"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/image_breed"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Breed Name" />
+
+    <TextView
+        android:id="@+id/text_breed_temperament"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_breed_wiki_link"
+        app:layout_constraintEnd_toEndOf="@+id/text_breed_name"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/text_breed_name"
+        app:layout_constraintTop_toBottomOf="@+id/text_breed_name"
+        tools:text="Temperament" />
+
+    <TextView
+        android:id="@+id/text_breed_wiki_link"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autoLink="web"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_breed"
+        app:layout_constraintEnd_toEndOf="@+id/text_breed_temperament"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/text_breed_temperament"
+        app:layout_constraintTop_toBottomOf="@+id/text_breed_temperament"
+        tools:text="Wikipedia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
