@@ -2,6 +2,22 @@
 
 ![Pets-App](https://github.com/filippoengidashet/Pets-App/blob/main/demo/demo.gif)
 
+### Setup Instruction
+
+* Download and Install [Android Studio](https://developer.android.com/studio)
+* Clone or download zip of the project [here](https://github.com/filippoengidashet/Pets-App.git)
+* Import project in Android Studio
+* Sync and Run the App
+
+### Used Approaches
+
+* Partial use of MVVM Architecture
+* No test in place
+
+### Comments
+
+With more time it's possible to improve the code structure, add test cases and more features
+
 License
 -------
 
